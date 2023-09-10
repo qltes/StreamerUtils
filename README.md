@@ -1,6 +1,8 @@
 # StreamerUtils
 A normal streaming mod for gorilla tag
 
+Mod idea from: prophetjofficial
+
 # Adds:
 - Code Display
 
