@@ -1,4 +1,4 @@
-﻿using BepInEx;
+using BepInEx;
 using BepInEx.Configuration;
 using Photon.Pun;
 using UnityEngine;
@@ -14,15 +14,17 @@ namespace StreamOverlay
         private static bool SubGoal;
         private static bool Tutorial;
         private ConfigEntry<int> subGoalConfig;
+        private ConfigEntry<int> labelFontSize;
 
         private void Awake()
         {
             subGoalConfig = Config.Bind("General", "Sub Goal", 100, "Change Sub Goal");
+            labelFontSize = Config.Bind("General", "LabelFontSize", 30, "Font Size Changer");
         }
 
         public void OnGUI()
         {
-            GUI.skin.label.fontSize = 30;
+            GUI.skin.label.fontSize = labelFontSize.Value;
             GUI.skin.label.fontStyle = FontStyle.Normal;
             GUI.color = Color.white;
 
