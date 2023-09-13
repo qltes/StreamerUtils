@@ -37,7 +37,7 @@ namespace StreamOverlay
             if (SubGoal)
             {
                 int subGoalValue = subGoalConfig.Value;
-                GUI.Label(new Rect(10f, Screen.height - 85f, 200f, 40f), "Sub Goal: " + subGoalValue);
+                GUI.Label(new Rect(10f, Screen.height - 85f, 7000f, 40f), "Sub Goal: " + subGoalValue);
             }
             if (Tutorial)
             {
