@@ -19,5 +19,7 @@ Mod idea from: prophetjofficial
 - Computer Interface Support
 
 - Remove Tutorial Button on computer
-
+  
 Discord: https://discord.gg/g6TBJsQJs3 
+
+![image_2023-02-25_220403417(2)](https://cdn.discordapp.com/attachments/1080961818140364850/1150504482229194762/image.png)
